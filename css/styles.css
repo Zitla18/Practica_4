@@ -1,0 +1,130 @@
+html, * { box-sizing: border-box; }
+
+*, *:after, *:before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #75c9b7;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul { list-style: none; }
+
+a { text-decoration: none; }
+
+header, div, footer {
+  width: 100%;
+  max-width: 1200px;
+}
+
+header {
+  background-color: #322E2f;
+  text-align: center;
+  height: 11rem;
+  padding-bottom: .3rem;
+  padding-left: .3rem;
+  padding-right: .3rem;
+  margin-bottom: .6rem;
+}
+
+h1 {
+  color: #CAE0CE;
+  font-size: 3rem;
+  padding: 2rem 0;
+}
+
+nav {
+  background-color: #C7DDCC;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+a {
+  display: block;
+  padding: 1rem;
+  color: #353E5A;
+}
+
+div {
+  width: 100%;
+  background-color: #C7DDCC;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: .6rem;
+  padding: .6rem;
+  margin-bottom: .6rem;
+}
+
+main {
+  background-color: #12A4D9;
+  flex: 1;
+  height: auto;
+}
+
+h2 {
+  font-size: 2.4rem;
+  padding: 4rem 0;
+}
+
+article > p {
+  font-size: 1.2rem;
+  padding: 1rem 0;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+aside {
+  width: 25%;
+  background-color: #D9138A;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 1.8rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+aside p { padding: 1rem 0; }
+
+input[type="submit"] {
+  display: block;
+  margin-top: 1rem;
+  padding: .4rem .8rem;
+  border-radius: .2rem;
+  cursor: pointer;
+  border: none;
+}
+
+footer {
+  width: 100%;
+  background-color: #E2D810;
+  text-align: center;
+  min-height: 3rem;
+  padding: 2rem 0;
+}
